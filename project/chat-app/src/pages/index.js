@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import { Configuration, OpenAIApi } from 'openai';
 import { useState } from 'react';
+import KEY from '../../env';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -35,8 +36,7 @@ export default function Home() {
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
-        Authorization:
-          'Bearer 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',
+        Authorization: `Bearer ${KEY}`,
       },
       body: JSON.stringify({
         model: 'gpt-3.5-turbo',
