@@ -1,0 +1,33 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 4.1rem 0;
+    background-color: $c-black;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;   
+
+    &__button{
+        font-size: 1.4rem;
+        color: $c-white;
+        padding: 0.8rem 3 rem;
+        background-color: rgba($c-white,0.2);
+        border-radius: 0.8rem;
+        cursor: pointer;
+    }
+}
+.menu{
+    display: flex;
+    gap: 6.9rem;
+
+    &__link{
+        color: rgba($c-white,0.5);
+    }
+}
+
+

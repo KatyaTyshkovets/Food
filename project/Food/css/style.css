@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+p,
+figure,
+blockquote,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+input,
+select,
+button,
+textarea {
+  appearance: none;
+  border: none;
+  outline: 0;
+  font: inherit;
+}
+
+label {
+  display: block;
+}
+
+::placeholder {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../../fonts/DMSans-Regular.woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../../fonts/DMSans-Bold.woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DIN Alternate";
+  src: url("../../fonts/DIN-Alternate-Bold.woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 1.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 4.1rem 0;
+  background-color: #000000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__button {
+  font-size: 1.4rem;
+  color: #ffffff;
+  padding: 0.8rem 3 rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  gap: 6.9rem;
+}
+.menu__link {
+  color: rgba(255, 255, 255, 0.5);
+}/*# sourceMappingURL=style.css.map */
